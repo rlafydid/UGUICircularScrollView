@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UGUICircularScrollView", "UGUICircularScrollView.csproj", "{E85D0863-BD08-83E3-F027-48FAA771E398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UGUICircularScrollView.Editor", "UGUICircularScrollView.Editor.csproj", "{BA364A5D-BBAA-3050-25EA-1A7F47E87BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E85D0863-BD08-83E3-F027-48FAA771E398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85D0863-BD08-83E3-F027-48FAA771E398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85D0863-BD08-83E3-F027-48FAA771E398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85D0863-BD08-83E3-F027-48FAA771E398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA364A5D-BBAA-3050-25EA-1A7F47E87BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA364A5D-BBAA-3050-25EA-1A7F47E87BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA364A5D-BBAA-3050-25EA-1A7F47E87BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA364A5D-BBAA-3050-25EA-1A7F47E87BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
