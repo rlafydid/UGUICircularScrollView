@@ -13,7 +13,7 @@ namespace CircularScrollView
         public override void OnInspectorGUI()
         {
             list = (CircularScrollView.ExpandTipsCircularScrollView)target;
-            list.m_Direction = (e_Direction)EditorGUILayout.EnumPopup("Direction: ", list.m_Direction);
+            list.m_Direction = (EDirection)EditorGUILayout.EnumPopup("Direction: ", list.m_Direction);
 
             list.m_Row = EditorGUILayout.IntField("Row Or Column: ", list.m_Row);
             list.m_Spacing = EditorGUILayout.FloatField("Spacing: ", list.m_Spacing);

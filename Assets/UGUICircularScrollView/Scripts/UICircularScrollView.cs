@@ -1,5 +1,4 @@
 ﻿//*****************************-》 基类 循环列表 《-****************************
-//author kim
 //初始化:
 //      Init(callBackFunc)
 //刷新整个列表（首次调用和数量变化时调用）:
@@ -33,7 +32,7 @@ namespace CircularScrollView
         }
     }
 
-    public enum e_Direction
+    public enum EDirection
     {
         Horizontal,
         Vertical
@@ -45,7 +44,7 @@ namespace CircularScrollView
         public GameObject m_PointingFirstArrow;
         public GameObject m_PointingEndArrow;
 
-        public e_Direction m_Direction = e_Direction.Horizontal;
+        public EDirection m_Direction = EDirection.Horizontal;
         public bool m_IsShowArrow = true;
 
         public int m_Row = 1;
@@ -178,7 +177,7 @@ namespace CircularScrollView
         //检查 Anchor 是否正确
         private void CheckAnchor(RectTransform rectTrans)
         {
-            if(m_Direction == e_Direction.Vertical)
+            if(m_Direction == EDirection.Vertical)
             {
                 if (!((rectTrans.anchorMin == new Vector2(0, 1) && rectTrans.anchorMax == new Vector2(0, 1)) ||
                          (rectTrans.anchorMin == new Vector2(0, 1) && rectTrans.anchorMax == new Vector2(1, 1))))
@@ -206,7 +205,7 @@ namespace CircularScrollView
                 CellInfo cellInfo = m_CellInfos[i];
                 if (cellInfo.obj != null)
                 {
-                    float rangePos = m_Direction == e_Direction.Vertical ? cellInfo.pos.y : cellInfo.pos.x;
+                    float rangePos = m_Direction == EDirection.Vertical ? cellInfo.pos.y : cellInfo.pos.x;
                     if (!IsOutRange(rangePos))
                     {
                         Func(m_FuncCallBackFunc, cellInfo.obj, true);
@@ -221,7 +220,7 @@ namespace CircularScrollView
             CellInfo cellInfo = m_CellInfos[index - 1];
             if (cellInfo.obj != null)
             {
-                float rangePos = m_Direction == e_Direction.Vertical ? cellInfo.pos.y : cellInfo.pos.x;
+                float rangePos = m_Direction == EDirection.Vertical ? cellInfo.pos.y : cellInfo.pos.x;
                 if (!IsOutRange(rangePos))
                 {
                     Func(m_FuncCallBackFunc, cellInfo.obj);
@@ -237,7 +236,7 @@ namespace CircularScrollView
             m_MaxIndex = -1;
 
             //-> 计算 Content 尺寸
-            if(m_Direction == e_Direction.Vertical)
+            if(m_Direction == EDirection.Vertical)
             {
                 float contentSize = (m_Spacing + m_CellObjectHeight) * Mathf.CeilToInt((float)num / m_Row);
                 m_ContentHeight = contentSize;
@@ -294,7 +293,7 @@ namespace CircularScrollView
                 {
                     CellInfo tempCellInfo = tempCellInfos[i];
                     //-> 计算是否超出范围
-                    float rPos = m_Direction == e_Direction.Vertical ? tempCellInfo.pos.y : tempCellInfo.pos.x;
+                    float rPos = m_Direction == EDirection.Vertical ? tempCellInfo.pos.y : tempCellInfo.pos.x;
                     if (!IsOutRange(rPos))
                     {
                         //-> 记录显示范围中的 首位index 和 末尾index
@@ -326,7 +325,7 @@ namespace CircularScrollView
                 float rowPos = 0; //计算每排里面的cell 坐标
 
                 // * -> 计算每个Cell坐标
-                if(m_Direction == e_Direction.Vertical)
+                if(m_Direction == EDirection.Vertical)
                 {
                     pos = m_CellObjectHeight * Mathf.FloorToInt(i / m_Row) + m_Spacing * Mathf.FloorToInt(i / m_Row);
                     rowPos = m_CellObjectWidth * (i % m_Row) + m_Spacing * (i % m_Row);
@@ -340,7 +339,7 @@ namespace CircularScrollView
                 }
 
                 //-> 计算是否超出范围
-                float cellPos = m_Direction == e_Direction.Vertical ? cellInfo.pos.y : cellInfo.pos.x;
+                float cellPos = m_Direction == EDirection.Vertical ? cellInfo.pos.y : cellInfo.pos.x;
                 if (IsOutRange(cellPos))
                 {
                     cellInfo.obj = null;
@@ -398,7 +397,7 @@ namespace CircularScrollView
                 GameObject obj = cellInfo.obj;
                 Vector3 pos = cellInfo.pos;
 
-                float rangePos = m_Direction == e_Direction.Vertical ? pos.y : pos.x;
+                float rangePos = m_Direction == EDirection.Vertical ? pos.y : pos.x;
                 //判断是否超出显示范围
                 if (IsOutRange(rangePos))
                 {
@@ -429,7 +428,7 @@ namespace CircularScrollView
         protected bool IsOutRange(float pos)
         {
             Vector3 listP = m_ContentRectTrans.anchoredPosition;
-            if(m_Direction == e_Direction.Vertical)
+            if(m_Direction == EDirection.Vertical)
             {
                 if (pos + listP.y > m_CellObjectHeight || pos + listP.y < -rectTrans.rect.height)
                 {
@@ -529,9 +528,9 @@ namespace CircularScrollView
 
         protected void OnDragListener(Vector2 value)
         {
-            float normalizedPos = m_Direction == e_Direction.Vertical ? m_ScrollRect.verticalNormalizedPosition : m_ScrollRect.horizontalNormalizedPosition;
+            float normalizedPos = m_Direction == EDirection.Vertical ? m_ScrollRect.verticalNormalizedPosition : m_ScrollRect.horizontalNormalizedPosition;
 
-            if(m_Direction == e_Direction.Vertical)
+            if(m_Direction == EDirection.Vertical)
             {
                 if (m_ContentHeight - rectTrans.rect.height < 10)
                 {

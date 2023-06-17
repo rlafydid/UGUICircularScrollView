@@ -155,7 +155,7 @@ namespace CircularScrollView
                 {
                     if (m_ScrollRect == null) return;
 
-                    if(m_Direction == e_Direction.Vertical)
+                    if(m_Direction == EDirection.Vertical)
                     {
                         m_ScrollRect.verticalNormalizedPosition = Mathf.Lerp(m_ScrollRect.verticalNormalizedPosition, m_TargetPos, Time.deltaTime * m_SlideSpeed);
                     }
@@ -182,7 +182,7 @@ namespace CircularScrollView
                 return;
             }
             float tempPos = 0;
-            if(m_Direction == e_Direction.Vertical)
+            if(m_Direction == EDirection.Vertical)
             {
                 tempPos = m_ScrollRect.verticalNormalizedPosition;
             }
