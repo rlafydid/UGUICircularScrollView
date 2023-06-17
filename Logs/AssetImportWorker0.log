@@ -1,0 +1,445 @@
+Unity Editor version:    2022.1.6f1c1 (484c1912c3e6)
+Branch:                  2022.1/china_unity/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H2026)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jinyu/UnityProject/UGUICircularScrollView
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53885
+Successfully changed project path to: /Users/jinyu/UnityProject/UGUICircularScrollView
+/Users/jinyu/UnityProject/UGUICircularScrollView
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 333.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.6f1c1 (484c1912c3e6)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jinyu/UnityProject/UGUICircularScrollView/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+S27D750 preferred device: Intel Iris Graphics (low power)
+Metal devices available: 1
+0: Intel Iris Graphics (low power)
+Using device Intel Iris Graphics (low power)
+Initializing Metal device caps: Intel Iris Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56799
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003204 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 130.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2544ms)
+		BeginReloadAssembly (447ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1592ms)
+			LoadAssemblies (443ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (569ms)
+				TypeCache.Initialize (568ms)
+					TypeCache.ScanAssembly (564ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (782ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (15ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (438ms)
+				ProcessInitializeOnLoadMethodAttributes (183ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013460 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jinyu/UnityProject/UGUICircularScrollView/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jinyu/UnityProject/UGUICircularScrollView/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.073 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2075ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1619ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (539ms)
+				TypeCache.Initialize (529ms)
+					TypeCache.ScanAssembly (523ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (699ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (498ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (44.3 KB). Loaded Objects now: 3725.
+Memory consumption went from 0.59 GB to 0.59 GB.
+Total: 9.799744 ms (FindLiveObjects: 0.657665 ms CreateObjectMapping: 0.717500 ms MarkObjects: 8.263706 ms  DeleteObjects: 0.158942 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5209.188986 seconds.
+  path: Assets/UGUICircularScrollView/TestOtherScrollTypeDemo.cs
+  artifactKey: Guid(5ab875aeb921a48a2b2e74f9c987b7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/TestOtherScrollTypeDemo.cs using Guid(5ab875aeb921a48a2b2e74f9c987b7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e900e6ada884f899bcf2e57e67c2412') in 1.000085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Assets/UGUICircularScrollView
+  artifactKey: Guid(6832dd24b29947f4d85b451bd845a81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView using Guid(6832dd24b29947f4d85b451bd845a81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1341d4e1412f0c7015468a17c8538bd') in 0.002119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/UGUICircularScrollView/Fonts/msyh.ttf
+  artifactKey: Guid(1a166af4fec19c64499ed098f23ebd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Fonts/msyh.ttf using Guid(1a166af4fec19c64499ed098f23ebd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079c4d2b2d64758c20188b60dfd9d875') in 1.577514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/UGUICircularScrollView/Scene/MainDemo.unity
+  artifactKey: Guid(305259512ef8949278f49db23a692b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Scene/MainDemo.unity using Guid(305259512ef8949278f49db23a692b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8defe5efd6298279fdc5a907d7b77d') in 0.001374 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003838 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jinyu/UnityProject/UGUICircularScrollView/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jinyu/UnityProject/UGUICircularScrollView/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.231 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3234ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (150ms)
+		EndReloadAssembly (2663ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (710ms)
+				TypeCache.Initialize (692ms)
+					TypeCache.ScanAssembly (683ms)
+				ResolveRequiredComponents (18ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (188ms)
+			SetupLoadedEditorAssemblies (1309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (24ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (946ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.8 KB). Loaded Objects now: 3772.
+Memory consumption went from 0.61 GB to 0.61 GB.
+Total: 9.679475 ms (FindLiveObjects: 0.587619 ms CreateObjectMapping: 0.550646 ms MarkObjects: 8.460699 ms  DeleteObjects: 0.078484 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.936492 seconds.
+  path: Assets/UGUICircularScrollView/Scene/OtherDemo.unity
+  artifactKey: Guid(5e291af5cac5c4a9d83fe333b60107c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Scene/OtherDemo.unity using Guid(5e291af5cac5c4a9d83fe333b60107c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9eb61fd9b387167d2c5f4a9792216a') in 0.003587 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003756 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jinyu/UnityProject/UGUICircularScrollView/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jinyu/UnityProject/UGUICircularScrollView/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4501ms)
+		BeginReloadAssembly (307ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (3910ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (890ms)
+				TypeCache.Initialize (866ms)
+					TypeCache.ScanAssembly (850ms)
+				ResolveRequiredComponents (24ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (405ms)
+			SetupLoadedEditorAssemblies (1931ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (36ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (269ms)
+				ProcessInitializeOnLoadAttributes (1424ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.8 KB). Loaded Objects now: 3775.
+Memory consumption went from 0.61 GB to 0.61 GB.
+Total: 11.801642 ms (FindLiveObjects: 0.880845 ms CreateObjectMapping: 1.218255 ms MarkObjects: 9.654809 ms  DeleteObjects: 0.044533 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.015095 seconds.
+  path: Assets/UGUICircularScrollView/Editor/ExpandCircularScrollViewEditor.cs
+  artifactKey: Guid(96b42eff162ab467fa42dc8831f62a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Editor/ExpandCircularScrollViewEditor.cs using Guid(96b42eff162ab467fa42dc8831f62a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b8c26ae5a44e9ac30be9e63b547f43') in 0.004276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.455948 seconds.
+  path: Assets/UGUICircularScrollView/Editor/ExpandTipsCircularScrollViewEditor.cs
+  artifactKey: Guid(f97537638d62e426babc5da46ee1ecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Editor/ExpandTipsCircularScrollViewEditor.cs using Guid(f97537638d62e426babc5da46ee1ecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4cce4bb8485d280fb9cea3cbd73c44') in 0.002381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.390895 seconds.
+  path: Assets/UGUICircularScrollView/Editor/FlipPageCircularScrollViewEditor.cs
+  artifactKey: Guid(a83773b0123b340b78619e980da43477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Editor/FlipPageCircularScrollViewEditor.cs using Guid(a83773b0123b340b78619e980da43477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2a05082d4eb7cba02194f6427fc85e') in 0.002957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.381028 seconds.
+  path: Assets/UGUICircularScrollView/Editor/UICircularScrollViewEditor.cs
+  artifactKey: Guid(2e60c52a62c71ef4d9abcefbc900d395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Editor/UICircularScrollViewEditor.cs using Guid(2e60c52a62c71ef4d9abcefbc900d395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720a91047d27815aac0b377e47b64af5') in 0.004593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.266699 seconds.
+  path: Assets/UGUICircularScrollView/Image/Arrow.png
+  artifactKey: Guid(5b117715bd2a74ed9b19dc7f1e3f3321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Image/Arrow.png using Guid(5b117715bd2a74ed9b19dc7f1e3f3321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fbbe0c81bae8f5f6e1489e78efdaf0') in 1.163544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/UGUICircularScrollView/Image/Point_Normal.png
+  artifactKey: Guid(df9c0f6012c164af8b2ec1a928fa4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Image/Point_Normal.png using Guid(df9c0f6012c164af8b2ec1a928fa4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c6d0a2981a096aee3798adbf320872') in 0.036902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/UGUICircularScrollView/Image/Point_Select.png
+  artifactKey: Guid(1ff1209ab2a1b40fd9eecac9abb63b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Image/Point_Select.png using Guid(1ff1209ab2a1b40fd9eecac9abb63b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6165e82da80af450a6db8561a920da') in 0.035150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.549223 seconds.
+  path: Assets/UGUICircularScrollView/Scripts/ExpandCircularScrollView.cs
+  artifactKey: Guid(6f192f9290fb2464ab17365bf3c04013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Scripts/ExpandCircularScrollView.cs using Guid(6f192f9290fb2464ab17365bf3c04013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d6c1ffca9bf45c6701dc3f85666de1') in 0.002154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.558550 seconds.
+  path: Assets/UGUICircularScrollView/Scripts/ExpandTipsCircularScrollView.cs
+  artifactKey: Guid(4bd28cf3fae6de04d85eb1689efc2f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Scripts/ExpandTipsCircularScrollView.cs using Guid(4bd28cf3fae6de04d85eb1689efc2f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec156e07c955f8fbbdb8782db1532138') in 0.002849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.370035 seconds.
+  path: Assets/UGUICircularScrollView/Scripts/FlipPageCircularScrollView.cs
+  artifactKey: Guid(9c7087d86fa8e004d946f11e9e53b0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Scripts/FlipPageCircularScrollView.cs using Guid(9c7087d86fa8e004d946f11e9e53b0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0f4038bca6d89fff2721593b3c4dfc') in 0.002541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.750144 seconds.
+  path: Assets/UGUICircularScrollView/Scripts/UICircularScrollView.cs
+  artifactKey: Guid(ce282f7bb49a37e4d89694032cd5c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUICircularScrollView/Scripts/UICircularScrollView.cs using Guid(ce282f7bb49a37e4d89694032cd5c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950e0cf66c45a7d2e635d96cf127f041') in 0.002621 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005780 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jinyu/UnityProject/UGUICircularScrollView/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jinyu/UnityProject/UGUICircularScrollView/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3907ms)
+		BeginReloadAssembly (492ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (182ms)
+		EndReloadAssembly (3059ms)
+			LoadAssemblies (346ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (900ms)
+				TypeCache.Initialize (888ms)
+					TypeCache.ScanAssembly (879ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1609ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (1137ms)
+				ProcessInitializeOnLoadMethodAttributes (346ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.8 KB). Loaded Objects now: 3783.
+Memory consumption went from 0.61 GB to 0.61 GB.
+Total: 4.675374 ms (FindLiveObjects: 0.372002 ms CreateObjectMapping: 0.395200 ms MarkObjects: 3.853565 ms  DeleteObjects: 0.052897 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
